@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-fraud_data = pd.read_csv("/Users/JP/Desktop/new_fraudTrain.csv")
+fraud_data = pd.read_csv("new_fraudTrain.csv")
 fraud_data2 = fraud_data.drop(['Unnamed: 0', 'trans_date_trans_time', 'first', 'last', 'street', 'city', 'zip', 'lat', 'long', 'job', 'dob', 'trans_num', 'unix_time', 'merch_lat', 'merch_long'], axis=1)
 
 app = Dash(__name__)
