@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Initial import of the CC transaction fraud dataset.
-fraud_data = pd.read_csv("/Users/JP/Desktop/new_fraudTrain.csv")
+fraud_data = pd.read_csv("new_fraudTrain.csv")
 fraud_data
 
 # info function shows the type of data being worked with and gives insight into how many data points there are as well as any null data points. It can be seen that there is an even combination of categorical and numerical data.
